@@ -1,0 +1,323 @@
+[
+{
+	itemAttributes: 2
+	itemUseType: 128
+	itemUseTypeValue: 20 
+	itemTypeID: SHIELD01
+	itemShortDescription: 中级-铜制的盾牌
+	itemValue: 50
+},
+{
+	itemAttributes: 2
+	itemUseType: 128
+	itemUseTypeValue: 10 
+	itemTypeID: SHIELD02
+	itemShortDescription: 初级-适合农民使用的木头盾牌
+	itemValue: 25
+},
+{
+	itemAttributes: 2
+	itemUseType: 128
+	itemUseTypeValue: 30 
+	itemTypeID: SHIELD03
+	itemShortDescription: 中级-使用龙骨制作的盾牌
+	itemValue: 100
+},
+{
+	itemAttributes: 2
+	itemUseType: 128
+	itemUseTypeValue: 60 
+	itemTypeID: SHIELD04
+	itemShortDescription: 顶级-超合金制的盾牌
+	itemValue: 200
+},
+{
+	itemAttributes: 2
+	itemUseType: 128
+	itemUseTypeValue: 100 
+	itemTypeID: SHIELD05
+	itemShortDescription: 顶级-极其坚硬的金属盾牌
+	itemValue: 400
+},
+{
+	itemAttributes: 2
+	itemUseType: 512
+	itemUseTypeValue: 60 
+	itemTypeID: ARMOR01
+	itemShortDescription: 顶级-龙鳞制作的装甲
+	itemValue: 200
+},
+{
+	itemAttributes: 2
+	itemUseType: 512
+	itemUseTypeValue: 30 
+	itemTypeID: ARMOR02
+	itemShortDescription: 顶级-仙女祝福过的装甲
+	itemValue: 100
+},
+{
+	itemAttributes: 2
+	itemUseType: 512
+	itemUseTypeValue: 100 
+	itemTypeID: ARMOR03
+	itemShortDescription: 顶级-地狱恶魔之阴影盔甲
+	itemValue: 400
+},
+{
+	itemAttributes: 2
+	itemUseType: 512
+	itemUseTypeValue: 10 
+	itemTypeID: ARMOR04
+	itemShortDescription: 初级-农民用的破碎的纸皮盔甲
+	itemValue: 25
+},
+{
+	itemAttributes: 2
+	itemUseType: 512
+	itemUseTypeValue: 20 
+	itemTypeID: ARMOR05
+	itemShortDescription: 中级-铁盔甲
+	itemValue: 50
+},
+{
+	itemAttributes: 2
+	itemUseType: 1024
+	itemUseTypeValue: 60 
+	itemTypeID: BOOTS01
+	itemShortDescription: 顶级-靴子，适合骑士
+	itemValue: 200
+},
+{
+	itemAttributes: 2
+	itemUseType: 1024
+	itemUseTypeValue: 20 
+	itemTypeID: BOOTS02
+	itemShortDescription: 中级-铁鞋子
+	itemValue: 50
+},
+{
+	itemAttributes: 2
+	itemUseType: 1024
+	itemUseTypeValue: 10 
+	itemTypeID: BOOTS03
+	itemShortDescription: 初级-适合农民穿的羽毛编织的鞋子
+	itemValue: 25
+},
+{
+	itemAttributes: 2
+	itemUseType: 1024
+	itemUseTypeValue: 30 
+	itemTypeID: BOOTS04
+	itemShortDescription: 中级-小孩捉迷藏玩过的鞋子
+	itemValue: 100
+},
+{
+	itemAttributes: 2
+	itemUseType: 1024
+	itemUseTypeValue: 100 
+	itemTypeID: BOOTS05
+	itemShortDescription: 顶级-龙舌制作的鞋子
+	itemValue: 400
+},
+{
+	itemAttributes: 2
+	itemUseType: 256
+	itemUseTypeValue: 100 
+	itemTypeID: HELMET01
+	itemShortDescription: 顶级-国王卫队使用的头盔
+	itemValue: 400
+},
+{
+	itemAttributes: 2
+	itemUseType: 256
+	itemUseTypeValue: 20 
+	itemTypeID: HELMET02
+	itemShortDescription: 中级-铜制头盔
+	itemValue: 50
+},
+{
+	itemAttributes: 2
+	itemUseType: 256
+	itemUseTypeValue: 60 
+	itemTypeID: HELMET03
+	itemShortDescription: 中级-头盔，用于长时间的战斗
+	itemValue: 200
+},
+{
+	itemAttributes: 2
+	itemUseType: 256
+	itemUseTypeValue: 30 
+	itemTypeID: HELMET04
+	itemShortDescription: 中级-头盔，由钢铁铸造而成
+	itemValue: 100
+},
+{
+	itemAttributes: 2
+	itemUseType: 256
+	itemUseTypeValue: 10 
+	itemTypeID: HELMET05
+	itemShortDescription: 适合农民用的皮头盔
+	itemValue: 25
+},
+{
+	itemAttributes: 2
+	itemUseType: 32
+	itemUseTypeValue: 100 
+	itemTypeID: WANDS01
+	itemShortDescription: 顶级-仙女使用的魔杖
+	itemValue: 400
+},
+{
+	itemAttributes: 2
+	itemUseType: 32
+	itemUseTypeValue: 10 
+	itemTypeID: WANDS02
+	itemShortDescription: 学徒使用的小魔杖
+	itemValue: 25
+},
+{
+	itemAttributes: 2
+	itemUseType: 32
+	itemUseTypeValue: 60 
+	itemTypeID: WANDS03
+	itemShortDescription: 中级-魔杖 ，可以重击火魔
+	itemValue: 200
+},
+{
+	itemAttributes: 2
+	itemUseType: 64
+	itemUseTypeValue: 20 
+	itemTypeID: WANDS04
+	itemShortDescription: 中级-魔杖，法伤获得额外的加成
+	itemValue: 50
+},
+{
+	itemAttributes: 2
+	itemUseType: 64
+	itemUseTypeValue: 30 
+	itemTypeID: WANDS05
+	itemShortDescription: 中级-魔杖 ，能增加掉落物品的机会
+	itemValue: 100
+},
+{
+	itemAttributes: 2
+	itemUseType: 8
+	itemUseTypeValue: 10 
+	itemTypeID: WEAPON01
+	itemShortDescription: 一把农民用的铜剑
+	itemValue: 25
+},
+{
+	itemAttributes: 2
+	itemUseType: 8
+	itemUseTypeValue: 100 
+	itemTypeID: WEAPON02
+	itemShortDescription: 顶级-剑 ，由魔王的仇恨铸造而成
+	itemValue: 400
+},
+{
+	itemAttributes: 2
+	itemUseType: 16
+	itemUseTypeValue: 30 
+	itemTypeID: WEAPON03
+	itemShortDescription: 中级-斧子，由钢铁铸造而成
+	itemValue: 100
+},
+{
+	itemAttributes: 2
+	itemUseType: 16
+	itemUseTypeValue: 60 
+	itemTypeID: WEAPON04
+	itemShortDescription: 顶级-国王的卫队使用的矛
+	itemValue: 200
+},
+{
+	itemAttributes: 2
+	itemUseType: 16
+	itemUseTypeValue: 20 
+	itemTypeID: WEAPON05
+	itemShortDescription: 中级-铁锤，由钢铁铸造而成
+	itemValue: 50
+},
+{
+	itemAttributes: 5
+	itemUseType: 2
+	itemUseTypeValue: 10 
+	itemTypeID: POTIONS01
+	itemShortDescription: 药水-恢复 10MP
+	itemValue: 10
+},
+{
+	itemAttributes: 5
+	itemUseType: 2
+	itemUseTypeValue: 50 
+	itemTypeID: POTIONS02
+	itemShortDescription: 药水-恢复 50MP
+	itemValue: 50
+},
+{
+	itemAttributes: 5
+	itemUseType: 2
+	itemUseTypeValue: 100 
+	itemTypeID: POTIONS03
+	itemShortDescription: 药水-恢复 100MP
+	itemValue: 100
+},
+{
+	itemAttributes: 5
+	itemUseType: 1
+	itemUseTypeValue: 10 
+	itemTypeID: SCROLL01
+	itemShortDescription: 卷轴-恢复 10HP
+	itemValue: 10
+},
+{
+	itemAttributes: 5
+	itemUseType: 1
+	itemUseTypeValue: 50 
+	itemTypeID: SCROLL02
+	itemShortDescription: 卷轴-恢复 50HP
+	itemValue: 50
+},
+{
+	itemAttributes: 5
+	itemUseType: 1
+	itemUseTypeValue: 100 
+	itemTypeID: SCROLL03
+	itemShortDescription: 卷轴-恢复 100HP
+	itemValue: 100
+},
+{
+	itemAttributes: 4
+	itemUseType: 2048
+	itemUseTypeValue: 0
+	itemTypeID: HERB001
+	itemShortDescription: 道具物品-药草
+	itemValue: -1
+},
+{
+	itemAttributes: 4
+	itemUseType: 2048
+	itemUseTypeValue: 0 
+	itemTypeID: BABY001
+	itemShortDescription: 道具物品-孩子
+	itemValue: -1
+},
+{
+	itemAttributes: 4
+	itemUseType: 2048
+	itemUseTypeValue: 0
+	itemTypeID: FUR001
+	itemShortDescription: 道具物品-毛皮
+	itemValue: -1
+},
+{
+	itemAttributes: 4
+	itemUseType: 2048
+	itemUseTypeValue: 0
+	itemTypeID: HORNS001
+	itemShortDescription: 道具物品-怪兽的角
+	itemValue: -1
+},
+
+]

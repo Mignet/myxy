@@ -1,0 +1,62 @@
+{
+questTitle : "把我的孩子找回来!"
+questID : 3
+goldReward : 20
+xpReward : 20
+isQuestComplete : FALSE
+questTasks: {
+	2: {
+		taskProperties: {
+			IS_TASK_COMPLETE: {
+				class: java.lang.String
+				value: "false"
+			}
+			TARGET_TYPE: {
+				class: java.lang.String
+				value: "scripts/quest003_task002.json"
+			}
+			TARGET_NUM: {
+				class: java.lang.String
+				value: "1"
+			}
+			TARGET_LOCATION: {
+				class: java.lang.String
+				value: "TOWN"
+			}
+			
+		}
+		id: 2
+		taskPhrase: 请找回我丢失的孩子!
+		questType : FETCH
+	}
+	1: {
+		taskProperties: {
+			IS_TASK_COMPLETE: {
+				class: java.lang.String
+				value: "false"
+			}
+			TARGET_TYPE: {
+				class: java.lang.String
+				value: "TOWN_FOLK2"
+			}
+			TARGET_LOCATION: {
+				class: java.lang.String
+				value: "TOWN"
+			}
+		}
+		id: 1
+		taskPhrase: 找回我的孩子!
+		questType : RETURN
+	}
+}
+questTaskDependencies: {
+	1: [
+		{
+			class: com.v5ent.game.quest.QuestTaskDependency
+			sourceId: 1
+			destinationId: 2
+		}
+	]
+	2: []
+}
+}

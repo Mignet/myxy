@@ -1,0 +1,365 @@
+{
+entityID : TOWN_GUARD
+state : IDLE
+direction : RIGHTDOWN
+conversationConfigPath : "conversations/conversation002.json"
+questConfigPath : ""
+currentQuestID : ""
+itemTypeID: NONE
+boxWidth:156
+boxHeight:153
+animationConfig: [
+	{
+frameDuration: 0.125
+animationType: IDLE_RIGHTDOWN
+texturePaths: [
+	sprites/characters/建邺士兵-站立-74-172.png
+]
+frameWidth: 74
+frameHeight: 172
+gridPoints: [
+{
+	x: 0
+	y: 0
+}
+{
+	x: 0
+	y: 1
+}
+{
+	x: 0
+	y: 2
+}
+{
+	x: 0
+	y: 3
+}
+{
+	x: 0
+	y: 4
+}
+{
+	x: 0
+	y: 5
+}
+{
+	x: 0
+	y: 6
+}
+{
+	x: 0
+	y: 7
+}
+]
+}
+{
+frameDuration: 0.125
+animationType: IDLE_LEFTDOWN
+texturePaths: [
+	sprites/characters/建邺士兵-站立-74-172.png
+]
+frameWidth: 74
+frameHeight: 172
+gridPoints: [
+{
+	x: 1
+	y: 0
+}
+{
+	x: 1
+	y: 1
+}
+{
+	x: 1
+	y: 2
+}
+{
+	x: 1
+	y: 3
+}
+{
+	x: 1
+	y: 4
+}
+{
+	x: 1
+	y: 5
+}
+{
+	x: 1
+	y: 6
+}
+{
+	x: 1
+	y: 7
+}
+]
+}
+
+{
+frameDuration: 0.125
+animationType: IDLE_LEFTUP
+texturePaths: [
+	sprites/characters/建邺士兵-站立-74-172.png
+]
+frameWidth: 74
+frameHeight: 172
+gridPoints: [
+{
+	x: 2
+	y: 0
+}
+{
+	x: 2
+	y: 1
+}
+{
+	x: 2
+	y: 2
+}
+{
+	x: 2
+	y: 3
+}
+{
+	x: 2
+	y: 4
+}
+{
+	x: 2
+	y: 5
+}
+{
+	x: 2
+	y: 6
+}
+{
+	x: 2
+	y: 7
+}
+]
+}
+
+{
+frameDuration: 0.125
+animationType: IDLE_RIGHTUP
+texturePaths: [
+	sprites/characters/建邺士兵-站立-74-172.png
+]
+frameWidth: 74
+frameHeight: 172
+gridPoints: [
+{
+	x: 3
+	y: 0
+}
+{
+	x: 3
+	y: 1
+}
+{
+	x: 3
+	y: 2
+}
+{
+	x: 3
+	y: 3
+}
+{
+	x: 3
+	y: 4
+}
+{
+	x: 3
+	y: 5
+}
+{
+	x: 3
+	y: 6
+}
+{
+	x: 3
+	y: 7
+}
+]
+}
+
+{
+frameDuration: 0.125
+animationType: WALK_RIGHTDOWN
+texturePaths: [
+	sprites/characters/建邺士兵-行走-212-137.png
+]
+frameWidth: 212
+frameHeight: 137
+gridPoints: [
+{
+	x: 0
+	y: 0
+}
+{
+	x: 0
+	y: 1
+}
+{
+	x: 0
+	y: 2
+}
+{
+	x: 0
+	y: 3
+}
+{
+	x: 0
+	y: 4
+}
+{
+	x: 0
+	y: 5
+}
+{
+	x: 0
+	y: 6
+}
+{
+	x: 0
+	y: 7
+}
+]
+}
+
+{
+frameDuration: 0.125
+animationType: WALK_LEFTDOWN
+texturePaths: [
+	sprites/characters/建邺士兵-行走-212-137.png
+]
+frameWidth: 212
+frameHeight: 137
+gridPoints: [
+{
+	x: 1
+	y: 0
+}
+{
+	x: 1
+	y: 1
+}
+{
+	x: 1
+	y: 2
+}
+{
+	x: 1
+	y: 3
+}
+{
+	x: 1
+	y: 4
+}
+{
+	x: 1
+	y: 5
+}
+{
+	x: 1
+	y: 6
+}
+{
+	x: 1
+	y: 7
+}
+]
+}
+
+{
+frameDuration: 0.125
+animationType: WALK_LEFTUP
+texturePaths: [
+	sprites/characters/建邺士兵-行走-212-137.png
+]
+frameWidth: 212
+frameHeight: 137
+gridPoints: [
+{
+	x: 2
+	y: 0
+}
+{
+	x: 2
+	y: 1
+}
+{
+	x: 2
+	y: 2
+}
+{
+	x: 2
+	y: 3
+}
+{
+	x: 2
+	y: 4
+}
+{
+	x: 2
+	y: 5
+}
+{
+	x: 2
+	y: 6
+}
+{
+	x: 2
+	y: 7
+}
+]
+}
+
+{
+frameDuration: 0.125
+animationType: WALK_RIGHTUP
+texturePaths: [
+	sprites/characters/建邺士兵-行走-212-137.png
+]
+frameWidth: 212
+frameHeight: 137
+gridPoints: [
+{
+	x: 3
+	y: 0
+}
+{
+	x: 3
+	y: 1
+}
+{
+	x: 3
+	y: 2
+}
+{
+	x: 3
+	y: 3
+}
+{
+	x: 3
+	y: 4
+}
+{
+	x: 3
+	y: 5
+}
+{
+	x: 3
+	y: 6
+}
+{
+	x: 3
+	y: 7
+}
+]
+}
+
+	
+]
+}	

@@ -1,0 +1,1074 @@
+{
+entityID : PLAYER
+state : IDLE
+direction : UP
+conversationConfigPath : ""
+questConfigPath : ""
+currentQuestID : ""
+itemTypeID: NONE
+boxWidth:63
+boxHeight:94
+inventory : [
+	{
+		value: ARMOR04
+	},
+	{
+		value: BOOTS03
+	},
+	{
+		value: HELMET05
+	},
+	{
+		value: POTIONS01
+	},
+	{
+		value: POTIONS01
+	},
+	{
+		value: POTIONS01
+	},
+	{
+		value: POTIONS01
+	},
+	{
+		value: SCROLL01
+	},
+	{
+		value: SCROLL01
+	},
+	{
+		value: SCROLL01
+	},
+	{
+		value: SHIELD02
+	},
+	{
+		value: WANDS02
+	},
+	{
+		value: WEAPON01
+	},
+]
+animationConfig: [
+	{
+		frameDuration: 0.125
+		animationType: WALK_RIGHTDOWN
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 0
+				y: 0
+			}
+			{
+				x: 0
+				y: 1
+			}
+			{
+			    x: 0
+				y: 2
+			}
+			{
+			    x: 0
+				y: 3
+			}
+			{
+				x: 0
+				y: 4
+			}
+			{
+				x: 0
+				y: 5
+			}
+			{
+			    x: 0
+				y: 6
+			}
+			{
+			    x: 0
+				y: 7
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: WALK_LEFTDOWN
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 1
+				y: 0
+			}
+			{
+				x: 1
+				y: 1
+			}
+			{
+			    x: 1
+				y: 2
+			}
+			{
+			    x: 1
+				y: 3
+			}
+			{
+				x: 1
+				y: 4
+			}
+			{
+				x: 1
+				y: 5
+			}
+			{
+			    x: 1
+				y: 6
+			}
+			{
+			    x: 1
+				y: 7
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: WALK_LEFTUP
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 2
+				y: 0
+			}
+			{
+				x: 2
+				y: 1
+			}
+			{
+			    x: 2
+				y: 2
+			}
+			{
+			    x: 2
+				y: 3
+			}
+			{
+				x: 2
+				y: 4
+			}
+			{
+				x: 2
+				y: 5
+			}
+			{
+			    x: 2
+				y: 6
+			}
+			{
+			    x: 2
+				y: 7
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: WALK_RIGHTUP
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 3
+				y: 0
+			}
+			{
+				x: 3
+				y: 1
+			}
+			{
+			    x: 3
+				y: 2
+			}
+			{
+			    x: 3
+				y: 3
+			}
+			{
+				x: 3
+				y: 4
+			}
+			{
+				x: 3
+				y: 5
+			}
+			{
+			    x: 3
+				y: 6
+			}
+			{
+			    x: 3
+				y: 7
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: WALK_DOWN
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 4
+				y: 0
+			}
+			{
+				x: 4
+				y: 1
+			}
+			{
+			    x: 4
+				y: 2
+			}
+			{
+			    x: 4
+				y: 3
+			}
+			{
+				x: 4
+				y: 4
+			}
+			{
+				x: 4
+				y: 5
+			}
+			{
+			    x: 4
+				y: 6
+			}
+			{
+			    x: 4
+				y: 7
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: WALK_LEFT
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 5
+				y: 0
+			}
+			{
+				x: 5
+				y: 1
+			}
+			{
+			    x: 5
+				y: 2
+			}
+			{
+			    x: 5
+				y: 3
+			}
+			{
+				x: 5
+				y: 4
+			}
+			{
+				x: 5
+				y: 5
+			}
+			{
+			    x: 5
+				y: 6
+			}
+			{
+			    x: 5
+				y: 7
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: WALK_UP
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 6
+				y: 0
+			}
+			{
+				x: 6
+				y: 1
+			}
+			{
+			    x: 6
+				y: 2
+			}
+			{
+			    x: 6
+				y: 3
+			}
+			{
+				x: 6
+				y: 4
+			}
+			{
+				x: 6
+				y: 5
+			}
+			{
+			    x: 6
+				y: 6
+			}
+			{
+			    x: 6
+				y: 7
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: WALK_RIGHT
+		texturePaths: [
+			sprites/characters/mlh-move-109-101.png
+		]
+		frameWidth: 109
+		frameHeight: 101
+		gridPoints: [
+			{
+				x: 7
+				y: 0
+			}
+			{
+				x: 7
+				y: 1
+			}
+			{
+			    x: 7
+				y: 2
+			}
+			{
+			    x: 7
+				y: 3
+			}
+			{
+				x: 7
+				y: 4
+			}
+			{
+				x: 7
+				y: 5
+			}
+			{
+			    x: 7
+				y: 6
+			}
+			{
+			    x: 7
+				y: 7
+			}
+		]
+	}
+	
+	{
+		frameDuration: 0.125
+		animationType: IDLE_RIGHTDOWN
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 0
+				y: 0
+			}
+			{
+				x: 0
+				y: 1
+			}
+			{
+			    x: 0
+				y: 2
+			}
+			{
+			    x: 0
+				y: 3
+			}
+			{
+				x: 0
+				y: 4
+			}
+			{
+				x: 0
+				y: 5
+			}
+			{
+			    x: 0
+				y: 6
+			}
+			{
+			    x: 0
+				y: 7
+			}
+			{
+				x: 0
+				y: 8
+			}
+			{
+				x: 0
+				y: 9
+			}
+			{
+			    x: 0
+				y: 10
+			}
+			{
+			    x: 0
+				y: 11
+			}
+			{
+				x: 0
+				y: 12
+			}
+			{
+				x: 0
+				y: 13
+			}
+			{
+			    x: 0
+				y: 14
+			}
+			{
+			    x: 0
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE_LEFTDOWN
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 1
+				y: 0
+			}
+			{
+				x: 1
+				y: 1
+			}
+			{
+			    x: 1
+				y: 2
+			}
+			{
+			    x: 1
+				y: 3
+			}
+			{
+				x: 1
+				y: 4
+			}
+			{
+				x: 1
+				y: 5
+			}
+			{
+			    x: 1
+				y: 6
+			}
+			{
+			    x: 1
+				y: 7
+			}
+			{
+				x: 1
+				y: 8
+			}
+			{
+				x: 1
+				y: 9
+			}
+			{
+			    x: 1
+				y: 10
+			}
+			{
+			    x: 1
+				y: 11
+			}
+			{
+				x: 1
+				y: 12
+			}
+			{
+				x: 1
+				y: 13
+			}
+			{
+			    x: 1
+				y: 14
+			}
+			{
+			    x: 1
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE_LEFTUP
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 2
+				y: 0
+			}
+			{
+				x: 2
+				y: 1
+			}
+			{
+			    x: 2
+				y: 2
+			}
+			{
+			    x: 2
+				y: 3
+			}
+			{
+				x: 2
+				y: 4
+			}
+			{
+				x: 2
+				y: 5
+			}
+			{
+			    x: 2
+				y: 6
+			}
+			{
+			    x: 2
+				y: 7
+			}
+			{
+				x: 2
+				y: 8
+			}
+			{
+				x: 2
+				y: 9
+			}
+			{
+			    x: 2
+				y: 10
+			}
+			{
+			    x: 2
+				y: 11
+			}
+			{
+				x: 2
+				y: 12
+			}
+			{
+				x: 2
+				y: 13
+			}
+			{
+			    x: 2
+				y: 14
+			}
+			{
+			    x: 2
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE_RIGHTUP
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 3
+				y: 0
+			}
+			{
+				x: 3
+				y: 1
+			}
+			{
+			    x: 3
+				y: 2
+			}
+			{
+			    x: 3
+				y: 3
+			}
+			{
+				x: 3
+				y: 4
+			}
+			{
+				x: 3
+				y: 5
+			}
+			{
+			    x: 3
+				y: 6
+			}
+			{
+			    x: 3
+				y: 7
+			}
+			{
+				x: 3
+				y: 8
+			}
+			{
+				x: 3
+				y: 9
+			}
+			{
+			    x: 3
+				y: 10
+			}
+			{
+			    x: 3
+				y: 11
+			}
+			{
+				x: 3
+				y: 12
+			}
+			{
+				x: 3
+				y: 13
+			}
+			{
+			    x: 3
+				y: 14
+			}
+			{
+			    x: 3
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE_DOWN
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 4
+				y: 0
+			}
+			{
+				x: 4
+				y: 1
+			}
+			{
+			    x: 4
+				y: 2
+			}
+			{
+			    x: 4
+				y: 3
+			}
+			{
+				x: 4
+				y: 4
+			}
+			{
+				x: 4
+				y: 5
+			}
+			{
+			    x: 4
+				y: 6
+			}
+			{
+			    x: 4
+				y: 7
+			}
+			{
+				x: 4
+				y: 8
+			}
+			{
+				x: 4
+				y: 9
+			}
+			{
+			    x: 4
+				y: 10
+			}
+			{
+			    x: 4
+				y: 11
+			}
+			{
+				x: 4
+				y: 12
+			}
+			{
+				x: 4
+				y: 13
+			}
+			{
+			    x: 4
+				y: 14
+			}
+			{
+			    x: 4
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE_LEFT
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 5
+				y: 0
+			}
+			{
+				x: 5
+				y: 1
+			}
+			{
+			    x: 5
+				y: 2
+			}
+			{
+			    x: 5
+				y: 3
+			}
+			{
+				x: 5
+				y: 4
+			}
+			{
+				x: 5
+				y: 5
+			}
+			{
+			    x: 5
+				y: 6
+			}
+			{
+			    x: 5
+				y: 7
+			}
+			{
+				x: 5
+				y: 8
+			}
+			{
+				x: 5
+				y: 9
+			}
+			{
+			    x: 5
+				y: 10
+			}
+			{
+			    x: 5
+				y: 11
+			}
+			{
+				x: 5
+				y: 12
+			}
+			{
+				x: 5
+				y: 13
+			}
+			{
+			    x: 5
+				y: 14
+			}
+			{
+			    x: 5
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 6
+				y: 0
+			}
+			{
+				x: 6
+				y: 1
+			}
+			{
+			    x: 6
+				y: 2
+			}
+			{
+			    x: 6
+				y: 3
+			}
+			{
+				x: 6
+				y: 4
+			}
+			{
+				x: 6
+				y: 5
+			}
+			{
+			    x: 6
+				y: 6
+			}
+			{
+			    x: 6
+				y: 7
+			}
+			{
+				x: 6
+				y: 8
+			}
+			{
+				x: 6
+				y: 9
+			}
+			{
+			    x: 6
+				y: 10
+			}
+			{
+			    x: 6
+				y: 11
+			}
+			{
+				x: 6
+				y: 12
+			}
+			{
+				x: 6
+				y: 13
+			}
+			{
+			    x: 6
+				y: 14
+			}
+			{
+			    x: 6
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE_UP
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 6
+				y: 0
+			}
+			{
+				x: 6
+				y: 1
+			}
+			{
+			    x: 6
+				y: 2
+			}
+			{
+			    x: 6
+				y: 3
+			}
+			{
+				x: 6
+				y: 4
+			}
+			{
+				x: 6
+				y: 5
+			}
+			{
+			    x: 6
+				y: 6
+			}
+			{
+			    x: 6
+				y: 7
+			}
+			{
+				x: 6
+				y: 8
+			}
+			{
+				x: 6
+				y: 9
+			}
+			{
+			    x: 6
+				y: 10
+			}
+			{
+			    x: 6
+				y: 11
+			}
+			{
+				x: 6
+				y: 12
+			}
+			{
+				x: 6
+				y: 13
+			}
+			{
+			    x: 6
+				y: 14
+			}
+			{
+			    x: 6
+				y: 15
+			}
+		]
+	}
+	{
+		frameDuration: 0.125
+		animationType: IDLE_RIGHT
+		texturePaths: [
+			sprites/characters/mlh-stand-63-94.png
+		]
+		frameWidth: 63
+		frameHeight: 94
+		gridPoints: [
+			{
+				x: 7
+				y: 0
+			}
+			{
+				x: 7
+				y: 1
+			}
+			{
+			    x: 7
+				y: 2
+			}
+			{
+			    x: 7
+				y: 3
+			}
+			{
+				x: 7
+				y: 4
+			}
+			{
+				x: 7
+				y: 5
+			}
+			{
+			    x: 7
+				y: 6
+			}
+			{
+			    x: 7
+				y: 7
+			}
+			{
+				x: 7
+				y: 8
+			}
+			{
+				x: 7
+				y: 9
+			}
+			{
+			    x: 7
+				y: 10
+			}
+			{
+			    x: 7
+				y: 11
+			}
+			{
+				x: 7
+				y: 12
+			}
+			{
+				x: 7
+				y: 13
+			}
+			{
+			    x: 7
+				y: 14
+			}
+			{
+			    x: 7
+				y: 15
+			}
+		]
+	}
+]
+}	

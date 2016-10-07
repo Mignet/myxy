@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="350" height="180" tilewidth="32" tileheight="32" nextobjectid="32">
+ <properties>
+  <property name="mapName" value="建邺城"/>
+ </properties>
+ <layer name="Background_Layer" width="350" height="180">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg3YjQAB
+  </data>
+ </layer>
+ <imagelayer name="MINI_MAP">
+  <image source="长安-min.jpg"/>
+ </imagelayer>
+ <objectgroup name="MAP_QUEST_ITEM_SPAWN_LAYER">
+  <object id="2" name="1" x="972" y="1440" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="3" name="1" x="1036" y="1504" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="4" name="1" x="1036" y="1632" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="5" name="1" x="1216" y="1728" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="6" name="1" x="1344" y="1760" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="7" name="1" x="1376" y="1856" width="32" height="32">
+   <properties>
+    <property name="taskID" value="3"/>
+   </properties>
+  </object>
+  <object id="8" name="1" x="1280" y="1696" width="32" height="32">
+   <properties>
+    <property name="taskID" value="3"/>
+   </properties>
+  </object>
+  <object id="9" name="1" x="1504" y="1824" width="32" height="32">
+   <properties>
+    <property name="taskID" value="3"/>
+   </properties>
+  </object>
+  <object id="10" name="1" x="940" y="1536" width="32" height="32">
+   <properties>
+    <property name="taskID" value="3"/>
+   </properties>
+  </object>
+  <object id="11" name="1" x="1100" y="1600" width="32" height="32">
+   <properties>
+    <property name="taskID" value="3"/>
+   </properties>
+  </object>
+  <object id="17" name="2" x="2784" y="928" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="18" name="2" x="2848" y="768" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="19" name="2" x="2944" y="864" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="20" name="2" x="2976" y="1120" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+  <object id="21" name="2" x="3168" y="1088" width="32" height="32">
+   <properties>
+    <property name="taskID" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Ground_Layer" width="350" height="180">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg3YjQAB
+  </data>
+ </layer>
+ <layer name="Decoration_Layer" width="350" height="180">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg3YjQAB
+  </data>
+ </layer>
+ <objectgroup name="MAP_COLLISION_LAYER"/>
+ <objectgroup name="MAP_PORTAL_LAYER">
+  <object id="1" name="TOWN" x="2624" y="1472" width="96" height="64">
+   <properties>
+    <property name="TX" value="35"/>
+    <property name="TY" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="MAP_SPAWNS_LAYER">
+  <object id="13" name="NPC_START" x="4704" y="2368" width="32" height="32"/>
+  <object id="14" name="TOWN_FOLK1" x="4256" y="2304" width="32" height="32"/>
+  <object id="15" name="TOWN_FOLK4" x="3904" y="2304" width="32" height="32" rotation="-0.394253"/>
+  <object id="16" name="TOWN_FOLK3" x="4544" y="2208" width="32" height="32"/>
+  <object id="31" name="NPC_START" x="4576" y="2560" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="MAP_ENEMY_SPAWN_LAYER">
+  <object id="12" name="1" x="3168" y="1664" width="1184" height="352"/>
+ </objectgroup>
+ <objectgroup name="MAP_QUEST_DISCOVER_LAYER">
+  <object id="22" name="1" x="704" y="1408" width="1056" height="736">
+   <properties>
+    <property name="taskID" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="PARTICLE_EFFECT_SPAWN_LAYER">
+  <object id="23" name="LANTERN_FIRE" x="3232" y="1408" width="32" height="32"/>
+ </objectgroup>
+ <imagelayer name="MAP_LIGHTMAP_LAYER_NIGHT" visible="0">
+  <image source="topworld_lightmap_night.png"/>
+ </imagelayer>
+ <imagelayer name="MAP_LIGHTMAP_LAYER_DUSK" visible="0">
+  <image source="topworld_lightmap_dusk.png"/>
+ </imagelayer>
+ <imagelayer name="MAP_LIGHTMAP_LAYER_DAWN" visible="0">
+  <image source="topworld_lightmap_dawn.png"/>
+ </imagelayer>
+ <imagelayer name="MAP_LIGHTMAP_LAYER_AFTERNOON" visible="0">
+  <image source="topworld_lightmap_afternoon.png"/>
+ </imagelayer>
+</map>

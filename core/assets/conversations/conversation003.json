@@ -1,0 +1,35 @@
+{
+conversations: {
+        1: {
+                id: 1
+                dialog: 你好旅行者.你想看看我的货吗?
+        }
+		2: {
+                id: 2
+                dialog: 确定
+        }
+        3: {
+                id: 3
+                dialog: 确定
+        }		
+}
+associatedChoices: {
+        1: [
+                {
+                        class: com.v5ent.game.dialog.ConversationChoice
+                        sourceId: 1
+                        destinationId: 2
+                        choicePhrase: 好
+						conversationCommandEvent: LOAD_STORE_INVENTORY
+                }
+                {
+                        class: com.v5ent.game.dialog.ConversationChoice
+                        sourceId: 1
+                        destinationId: 3
+                        choicePhrase: 不用了
+						conversationCommandEvent: EXIT_CONVERSATION
+                }
+	        ]
+}
+currentConversationID: 1
+}
