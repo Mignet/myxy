@@ -21,7 +21,7 @@ public class ProfileManager extends ProfileSubject {
     private boolean _isNewProfile = false;
 
     private static final String SAVEGAME_SUFFIX = ".sav";
-    public static final String DEFAULT_PROFILE = "default";
+    public static final String DEFAULT_PROFILE = "test";
 
 
     private ProfileManager(){

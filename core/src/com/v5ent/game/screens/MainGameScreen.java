@@ -214,7 +214,7 @@ public class MainGameScreen extends GameScreen {
 				_mapMgr.updateCurrentMapEffects(_mapMgr, _mapRenderer.getBatch(), delta);
 			}
 
-			//目标
+			//目标光标
 			if(_mapMgr.getTarget()!=null){
 				_mapRenderer.getBatch().begin();
 				_frameTime = (_frameTime + delta) % 5;
