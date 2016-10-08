@@ -17,6 +17,7 @@
 package com.v5ent.game.pfa;
 
 import com.badlogic.gdx.ai.pfa.GraphPath;
+import com.badlogic.gdx.ai.pfa.SmoothableGraphPath;
 import com.badlogic.gdx.ai.utils.RaycastCollisionDetector;
 
 /** A {@code PathSmoother} takes a {@link SmoothableGraphPath} and transforms it by linking directly the nodes that are in line of
