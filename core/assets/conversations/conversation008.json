@@ -1,0 +1,35 @@
+{
+conversations: {
+        1: {
+                id: 1
+                dialog: 客官，您要住店吗？
+        }
+		2: {
+                id: 2
+                dialog: 谢谢惠顾
+        }
+        3: {
+                id: 3
+                dialog: 欢迎再来
+        }
+}
+associatedChoices: {
+        1: [
+                {
+                        class: com.v5ent.game.dialog.ConversationChoice
+                        sourceId: 1
+                        destinationId: 2
+                        choicePhrase: "好!"
+						conversationCommandEvent: INN_SLEEP
+                }
+                {
+                        class: com.v5ent.game.dialog.ConversationChoice
+                        sourceId: 1
+                        destinationId: 3
+                        choicePhrase: "不用."
+						conversationCommandEvent: EXIT_CONVERSATION
+                }
+	        ]
+}
+currentConversationID: 1
+}

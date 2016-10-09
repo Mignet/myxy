@@ -1,7 +1,9 @@
-font.name=微软雅黑
+font.name=华文隶书
 font.size=18
 font.bold=true
 font.italic=false
+font.gamma=0.0
+font.mono=false
 
 font2.file=D:\My Documents\Personal\My Projects\Mastering LibGDX Game Development\Chapters\04\work\SDS_6x6.ttf
 font2.use=false
@@ -16,8 +18,8 @@ pad.advance.y=0
 glyph.native.rendering=false
 glyph.page.width=512
 glyph.page.height=512
-glyph.text=ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890\n"!`?'.,;:()[]{}<>|/@\^$-%+=#_&~*\n。一上下不世东丢个中为主久么之买了于些亲人什仇介从付仙以们件价任份会伤但作你使保候做像儿充先入全兰其具兽冒军农出击划列则初到制剑力加务助劲勇包匆化匠单卖卫卷取叛只叫可合名向吗否吧告呜和品售喜嗷回团国在地场坚城墓增士声复外大天失头女她好如妈始委子存学孩它安完定宪宴家对将小属己已币师带帮常并店度开弊强形影征待很徒得御必志忙态怪恢恨息恶惕惫想意感慎戏成我战所托找把抱拯持挑捉捡掉摧收攻效救文斗斧新方旅时明是最有木机杖束条来板极果档次欢欺歉步死毁母毛民气水没法派消游满火点爱牌物状狡狱猾王玩现生用由甲界疲病白的皮盔盖盛盾看真着矛知破硬确碎礼祝神福称程空穿第等简米精级纸织绍经结绞继续编罩羽老者而肉背能自舌般英草药获菜落藏血行表被装裹西要覆观角警计让诉试话说请读谈谢谨败货购起超跑路轴输边达过返还这进迷退适逃透造道遣遮那邪都里重野量金钢铁铜铸铺锤镇长问间队防阴险集需非靴鞋顶须题额馆馕验骑骗骤骨魔鳞鸣黑龙午音殿建邺，
+glyph.text=ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n1234567890\n"!`?'.,;:()[]{}<>|/@\^$-%+=#_&~*\n。一上下不专世东丢个中为主久么之买了于些交亲人什仇介从付仙以们件价任份会伤但住作你使保候做像儿充先光入全兰关兵其具兽内再冒军农出击划列则初到制剑力加务动助劲勇包匆化北匠单卖南卫即卷取叛只叫可合名向吗否吧告呜和品售喜嗷回团国图在地场坚城墓增士声复外大天失头女她好如妈始委子字存学孩它安完官定客宴家对寻将小层属差己已币师带帮常并店度建开异强影征待很徒得御心必志忙态怪恢恨息恶您惕惠惫想意感慎戏成我战所打托找把抱拯持挑捉捡据掉接摧撞收攻效救数文斗斧新方旅时明易是显晚景最有木未机杖条来板极果标档次欢欺歉步死毁母毛民气水汉没法派消游滚满火灯点爱牌物特状狡狱王玩现生用由甲界疲病白的皮盔盖盛目直盾看真着矛知破硬确碍碎碰示礼祝神禁福称程空穿立站第等简米精级纸织绍经绞继续编罩羽老者而肉背能自舌般英草药获菜落藏血行表被装裹西要覆观角警计让诈诉试话说请读谈谢谨象败货购走起超跑路轴输边达过迎返还这进迷退适逃透造道遣遮那邪邺都里重野量金钢铁铜铸铺锤镇长闭问间队防阴阻陌险集需非面靴鞋音顶须顾题额馆馕验骑骗骤骨魔鳞鸣黑龙午，？
 
 effect.class=com.badlogic.gdx.tools.hiero.unicodefont.effects.ColorEffect
-effect.Color=ffffff
+effect.Color=ffffcc
 

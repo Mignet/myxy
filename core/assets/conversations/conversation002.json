@@ -2,7 +2,7 @@
 conversations: {
         1: {
                 id: 1
-                dialog:"没时间和旅行者说话,我需要保持警惕让我们的镇子安全!"
+                dialog:"没时间和陌生人说话,我需要保持警惕让我们的镇子安全!"
         }
 }
 associatedChoices: {

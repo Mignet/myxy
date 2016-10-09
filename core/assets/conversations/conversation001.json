@@ -10,19 +10,19 @@ conversations: {
         }
         3: {
                 id: 3
-                dialog: 这条路是-由火一般的战斗铸造而成.
+                dialog: 这条路-由火一般的战斗铸造而成.
         }
         4: {
                 id: 4
-                dialog: 这条路是-欺骗和狡猾的将是你拯救世界的弊病.
+                dialog: 这条路-欺骗和狡诈将是你拯救世界的阻碍.
         }
         5: {
                 id: 5
-                dialog: 这条路是-意志力和强大的宪法将帮助你度过挑战.
+                dialog: 这条路-意志力和强大的内心将帮助你度过挑战.
         }
         6: {
                 id: 6
-                dialog: 这条路是-充满了背叛和欺骗。是疲惫的旅行者.
+                dialog: 这条路-充满了背叛和欺骗。是一场疲惫的旅行.
         }
 }
 associatedChoices: {
@@ -31,7 +31,7 @@ associatedChoices: {
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 1
                         destinationId: 2
-                        choicePhrase: Next
+                        choicePhrase: 继续
 						conversationCommandEvent: NONE
                 }
         ]
@@ -40,28 +40,28 @@ associatedChoices: {
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 2
                         destinationId: 3
-                        choicePhrase: North
+                        choicePhrase: 北
 						conversationCommandEvent: NONE
                 }
                 {
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 2
                         destinationId: 4
-                        choicePhrase: East
+                        choicePhrase: 东
 						conversationCommandEvent: NONE
                 }
 				{
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 2
                         destinationId: 5
-                        choicePhrase: West
+                        choicePhrase: 西
 						conversationCommandEvent: NONE
                 }
 				{
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 2
                         destinationId: 6
-                        choicePhrase: South
+                        choicePhrase: 南
 						conversationCommandEvent: NONE
                 }
         ]
@@ -70,7 +70,7 @@ associatedChoices: {
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 3
                         destinationId: 1
-                        choicePhrase: Go to beginning!
+                        choicePhrase: 回到开始!
 						conversationCommandEvent: NONE
                 }
         ]
@@ -79,7 +79,7 @@ associatedChoices: {
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 4
                         destinationId: 1
-                        choicePhrase: Go to beginning!
+                        choicePhrase: 回到开始!
 						conversationCommandEvent: NONE
                 }
         ]
@@ -88,7 +88,7 @@ associatedChoices: {
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 5
                         destinationId: 1
-                        choicePhrase: Go to beginning!
+                        choicePhrase: 回到开始!
 						conversationCommandEvent: NONE
                 }
         ]
@@ -97,7 +97,7 @@ associatedChoices: {
                         class: com.v5ent.game.dialog.ConversationChoice
                         sourceId: 6
                         destinationId: 1
-                        choicePhrase: Go to beginning!
+                        choicePhrase: 回到开始!
 						conversationCommandEvent: NONE
                 }
         ]

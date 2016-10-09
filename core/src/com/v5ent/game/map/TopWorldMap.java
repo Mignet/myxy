@@ -42,6 +42,10 @@ public class TopWorldMap extends Map{
         initSpecialEntityPosition(townfolk4);
         _mapEntities.add(townfolk4);
         
+        Entity townfolk10 = EntityFactory.getInstance().getEntityByName(EntityFactory.EntityName.TOWN_FOLK10);
+        initSpecialEntityPosition(townfolk10);
+        _mapEntities.add(townfolk10);
+        
         Array<Vector2> candleEffectPositions = getParticleEffectSpawnPositions(ParticleEffectFactory.ParticleEffectType.CANDLE_FIRE);
         for( Vector2 position: candleEffectPositions ){
             _mapParticleEffects.add(ParticleEffectFactory.getParticleEffect(ParticleEffectFactory.ParticleEffectType.CANDLE_FIRE, position));

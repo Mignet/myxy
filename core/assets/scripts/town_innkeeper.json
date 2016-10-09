@@ -2,7 +2,7 @@
 entityID : TOWN_INNKEEPER
 state : IMMOBILE
 direction : DOWN
-conversationConfigPath : ""
+conversationConfigPath : "conversations/conversation008.json"
 questConfigPath : ""
 currentQuestID : ""
 itemTypeID: NONE

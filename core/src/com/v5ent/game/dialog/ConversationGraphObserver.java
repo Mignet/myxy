@@ -5,6 +5,7 @@ public interface ConversationGraphObserver {
         LOAD_STORE_INVENTORY,
         EXIT_CONVERSATION,
         ACCEPT_QUEST,
+        INN_SLEEP,
         ADD_ENTITY_TO_INVENTORY,
         RETURN_QUEST,
         NONE

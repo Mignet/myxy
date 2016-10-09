@@ -60,8 +60,8 @@ private static final String TAG = ScollMap.class.getSimpleName();
 //					long start = (System.currentTimeMillis());
 					manager.finishLoading();
 					//System.err.println((System.currentTimeMillis()-start)+" in "+(bg?"bg":"fg"));
-					for(int i=x0-1;i<=x0+1;i++){
-						for(int j=y0-1;j<=y0+1;j++){
+					for(int i=x0-2;i<=x0+2;i++){
+						for(int j=y0-2;j<=y0+2;j++){
 							if(i<0||j<0||i>=width||j>=height)continue;
 							String srcPath  = "maps/"+mapName+"/"+i+"-"+j+"."+ext;
 							if(manager.isLoaded(srcPath)){

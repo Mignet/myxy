@@ -489,6 +489,11 @@ public class PlayerHUD implements Screen, AudioSubject, ProfileObserver,Componen
                 _conversationUI.setVisible(false);
                 _mapMgr.clearCurrentSelectedMapEntity();
                 break;
+            case INN_SLEEP:
+            	//health++,money--
+            	_statusUI.setHPValue(_statusUI.getHPValueMax());
+            	_statusUI.setGoldValue(_statusUI.getGoldValue()-10);
+            	break;
             case ACCEPT_QUEST:
                 Entity currentlySelectedEntity = _mapMgr.getCurrentSelectedMapEntity();
                 if( currentlySelectedEntity == null ){

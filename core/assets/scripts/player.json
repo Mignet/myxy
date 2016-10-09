@@ -1,7 +1,7 @@
 {
 entityID : PLAYER
 state : IDLE
-direction : UP
+direction : RIGHTDOWN
 conversationConfigPath : ""
 questConfigPath : ""
 currentQuestID : ""

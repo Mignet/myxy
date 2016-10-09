@@ -111,7 +111,7 @@
   <object id="13" name="NPC_START" x="1312" y="800" width="32" height="32"/>
   <object id="14" name="TOWN_FOLK1" x="1504" y="800" width="32" height="32"/>
   <object id="15" name="TOWN_FOLK4" x="1472" y="1056" width="32" height="32"/>
-  <object id="16" name="TOWN_FOLK3" x="1376" y="704" width="32" height="32"/>
+  <object id="16" name="TOWN_FOLK10" x="1376" y="704" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="MAP_ENEMY_SPAWN_LAYER" visible="0">
   <object id="12" name="1" x="160" y="832" width="640" height="512"/>
