@@ -206,7 +206,5 @@ public class NewGameScreen extends GameScreen {
 		_stage.clear();
 		_stage.dispose();
 	}
-	
-
 
 }

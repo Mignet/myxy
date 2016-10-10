@@ -14,7 +14,6 @@ import com.v5ent.game.MyRpgGame;
 import com.v5ent.game.MyRpgGame.ScreenType;
 import com.v5ent.game.audio.AudioObserver;
 import com.v5ent.game.menu.MenuStage;
-import com.v5ent.game.tools.Utility;
 
 public class MainMenuScreen extends GameScreen {
 
