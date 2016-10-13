@@ -22,7 +22,7 @@ public class QuestGraph {
     private Hashtable<String, ArrayList<QuestTaskDependency>> questTaskDependencies;
     private String questTitle;
     private String questID;
-    private boolean isQuestComplete;
+    private boolean isQuestComplete = false;
     private int goldReward;
     private int xpReward;
 

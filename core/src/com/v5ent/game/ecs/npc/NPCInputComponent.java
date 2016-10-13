@@ -91,6 +91,8 @@ public class NPCInputComponent extends InputComponent {
             case RIGHTDOWN:
                 entity.sendMessage(MESSAGE.CURRENT_DIRECTION, _json.toJson(Direction.RIGHTDOWN));
                 break;
+		default:
+			break;
         }
     }
 

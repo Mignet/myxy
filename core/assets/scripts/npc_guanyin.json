@@ -2,7 +2,7 @@
 entityID : NPC_GUANYIN
 state : IMMOBILE
 direction : RIGHTDOWN
-conversationConfigPath : "conversations/conversation002.json"
+conversationConfigPath : "conversations/conversation009.json"
 questConfigPath : ""
 currentQuestID : ""
 itemTypeID: NONE

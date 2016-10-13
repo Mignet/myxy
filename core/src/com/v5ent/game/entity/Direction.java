@@ -13,7 +13,7 @@ public enum Direction {
 	RIGHTDOWN;
 
 	/**
-	 * NPC随机走动
+	 * NPC随机切换方向
 	 * @return
 	 */
 	public static Direction getRandomNext() {

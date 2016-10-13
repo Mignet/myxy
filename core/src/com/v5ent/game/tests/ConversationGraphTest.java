@@ -80,7 +80,7 @@ public class ConversationGraphTest {
     public static Conversation getNextChoice(){
         ArrayList<ConversationChoice> choices = _graph.getCurrentChoices();
         for(ConversationChoice choice: choices){
-            //System.out.println(choice.getDestinationId() + " " + choice.getChoicePhrase());
+            System.out.println(choice.getDestinationId() + " " + choice.getChoicePhrase());
         }
         _input = System.console().readLine();
 

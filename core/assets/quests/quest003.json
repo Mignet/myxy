@@ -1,5 +1,5 @@
 {
-questTitle : "把我的孩子找回来!"
+questTitle : "请把我的孩子找回来!"
 questID : 3
 goldReward : 20
 xpReward : 20
@@ -45,7 +45,7 @@ questTasks: {
 			}
 		}
 		id: 1
-		taskPhrase: 找回我的孩子!
+		taskPhrase: 请找回我的孩子!
 		questType : RETURN
 	}
 }

@@ -4,7 +4,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.math.Vector3;
 import com.v5ent.game.ecs.InputComponent;
-import com.v5ent.game.ecs.Component.MESSAGE;
 import com.v5ent.game.entity.Direction;
 import com.v5ent.game.entity.Entity;
 import com.v5ent.game.screens.MainGameScreen;

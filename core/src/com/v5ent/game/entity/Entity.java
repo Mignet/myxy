@@ -32,7 +32,10 @@ public class Entity {
 
 		static public State getRandomNext() {
 			//Ignore IMMOBILE which should be last state
-			return State.values()[MathUtils.random(State.values().length -2)];
+			switch(MathUtils.random(2)){
+				case 1:return IDLE;
+				default:return WALKING;
+			}
 		}
 	}
 

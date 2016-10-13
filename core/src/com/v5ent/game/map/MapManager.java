@@ -221,7 +221,8 @@ public class MapManager implements ProfileObserver {
 
     public TiledMap getCurrentTiledMap(){
         if( _currentMap == null ) {
-            loadMap(MapFactory.MapType.TOWN,START_POINT.cpy().scl(32));
+        	Gdx.app.error(TAG, "!!!!!No Map!!!!!");
+            //loadMap(MapFactory.MapType.TOWN,START_POINT.cpy().scl(32));
         }
         return _currentMap.getCurrentTiledMap();
     }
