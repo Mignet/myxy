@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="180" height="90" tilewidth="32" tileheight="32" nextobjectid="31">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="180" height="90" tilewidth="32" tileheight="32" nextobjectid="32">
  <properties>
   <property name="mapName" value="建邺城"/>
  </properties>
+ <tileset firstgid="1" name="level" tilewidth="32" tileheight="32">
+  <image source="../sprites/objects/level.png" width="64" height="32"/>
+ </tileset>
  <layer name="Background_Layer" width="180" height="90">
   <data encoding="base64" compression="zlib">
    eJztwYEAAAAAw6D5U1/hAFUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvAf0gAAE=
@@ -90,7 +93,7 @@
  </objectgroup>
  <layer name="Ground_Layer" width="180" height="90">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Decoration_Layer" width="180" height="90">
@@ -104,6 +107,12 @@
    <properties>
     <property name="TX" value="35"/>
     <property name="TY" value="3"/>
+   </properties>
+  </object>
+  <object id="31" name="HOME" x="3232" y="1856" width="32" height="32">
+   <properties>
+    <property name="TX" value="13"/>
+    <property name="TY" value="4"/>
    </properties>
   </object>
  </objectgroup>

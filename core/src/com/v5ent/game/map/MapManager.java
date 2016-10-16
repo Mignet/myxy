@@ -20,7 +20,7 @@ import com.v5ent.game.profile.ProfileObserver;
 public class MapManager implements ProfileObserver {
     private static final String TAG = MapManager.class.getSimpleName();
     
-    private static final Vector2 START_POINT=new Vector2(16,14);
+    private static final Vector2 START_POINT=new Vector2(14,9);
     
     private Camera _camera;
     private boolean _mapChanged = false;
@@ -68,7 +68,7 @@ public class MapManager implements ProfileObserver {
                 Vector2 playerPosition = profileManager.getProperty("playerPosition", Vector2.class);
                 MapFactory.MapType mapType;
                 if( currentMap == null || currentMap.isEmpty() ){
-                    mapType = MapFactory.MapType.TOWN;
+                    mapType = MapFactory.MapType.HOME;
                 }else{
                     mapType = MapFactory.MapType.valueOf(currentMap);
                 }
@@ -92,7 +92,7 @@ public class MapManager implements ProfileObserver {
                 break;
             case CLEAR_CURRENT_PROFILE:
                 _currentMap = null;
-                profileManager.setProperty("currentMapType", MapFactory.MapType.TOWN.toString());
+                profileManager.setProperty("currentMapType", MapFactory.MapType.HOME.toString());
                 profileManager.setProperty("playerPosition", START_POINT.cpy().scl(32));
                 MapFactory.clearCache();
                 

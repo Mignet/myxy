@@ -6,6 +6,7 @@ public class MapFactory {
     //All maps for the game
     private static Hashtable<MapType,Map> _mapTable = new Hashtable<MapType, Map>();
     public static enum MapType{
+    	HOME,
         TOP_WORLD,
         TOWN,
         CASTLE_OF_DOOM
@@ -23,15 +24,24 @@ public class MapFactory {
                 	map.tiledMapInit();
                 }
                 break;
-            case TOWN:
-                map = _mapTable.get(MapType.TOWN);
+            case HOME:
+                map = _mapTable.get(MapType.HOME);
                 if( map == null ){
-                    map = new TownMap();
-                    _mapTable.put(MapType.TOWN, map);
+                    map = new HomeMap();
+                    _mapTable.put(MapType.HOME, map);
                 }else{
                 	map.tiledMapInit();
                 }
                 break;
+            case TOWN:
+            	map = _mapTable.get(MapType.TOWN);
+            	if( map == null ){
+            		map = new TownMap();
+            		_mapTable.put(MapType.TOWN, map);
+            	}else{
+            		map.tiledMapInit();
+            	}
+            	break;
             case CASTLE_OF_DOOM:
                 map = _mapTable.get(MapType.CASTLE_OF_DOOM);
                 if( map == null ){

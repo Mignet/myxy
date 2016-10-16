@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="32" tileheight="32" nextobjectid="3">
+ <properties>
+  <property name="mapName" value="家"/>
+ </properties>
+ <tileset firstgid="1" name="level" tilewidth="32" tileheight="32">
+  <image source="../sprites/objects/level.png" width="64" height="32"/>
+ </tileset>
+ <imagelayer name="BACKGROUND_IMAGE">
+  <image source="home.jpg"/>
+ </imagelayer>
+ <layer name="Background_Layer" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAS0BAAdsAAE=
+  </data>
+ </layer>
+ <layer name="Ground_Layer" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxUw4sDUNh+bOC3NR5ajxC5i9FNqDyl6SbGD3LglRg8xcqS6E5s4IX2kAErTIa7wJBS2pKYPcvMjKXooze+kpiVyATFupEZZQm7c0hsAAAQnAFc=
+  </data>
+ </layer>
+ <layer name="Decoration_Layer" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAS0BAAdsAAE=
+  </data>
+ </layer>
+ <objectgroup name="MAP_PORTAL_LAYER">
+  <object id="1" name="TOP_WORLD" x="480" y="512" width="32" height="32">
+   <properties>
+    <property name="TX" value="103"/>
+    <property name="TY" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="MAP_SPAWNS_LAYER"/>
+ <objectgroup name="PARTICLE_EFFECT_SPAWN_LAYER"/>
+ <imagelayer name="FOREGROUND_IMAGE">
+  <image source="home.png"/>
+ </imagelayer>
+ <imagelayer name="MAP_LIGHTMAP_LAYER_NIGHT" visible="0">
+  <image source="home_lightmap_night.png"/>
+ </imagelayer>
+</map>
