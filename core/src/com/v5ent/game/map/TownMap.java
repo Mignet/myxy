@@ -14,7 +14,7 @@ import com.v5ent.game.profile.ProfileManager;
 import com.v5ent.game.sfx.ParticleEffectFactory;
 
 public class TownMap extends Map{
-    private static final String TAG = PlayerPhysicsComponent.class.getSimpleName();
+    private static final String TAG = TownMap.class.getSimpleName();
 
     private static String _mapPath = "maps/观音殿.tmx";
     private Json _json;

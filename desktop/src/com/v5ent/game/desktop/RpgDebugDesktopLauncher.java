@@ -16,9 +16,7 @@ public class RpgDebugDesktopLauncher {
 		config.width = 800;
 		config.height = 600;
 		config.addIcon("menus/logo.png", Files.FileType.Internal);
-		Application app = new LwjglApplication(new MyRpgGame(), config);
-
-		Gdx.app = app;
+		Gdx.app = new LwjglApplication(new MyRpgGame(), config);
 //		Gdx.app.setLogLevel(Application.LOG_INFO);
 		Gdx.app.setLogLevel(Application.LOG_DEBUG);
 		//Gdx.app.setLogLevel(Application.LOG_ERROR);
