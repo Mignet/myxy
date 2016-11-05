@@ -73,7 +73,7 @@ public class MainGameScreen extends GameScreen {
 		setGameState(GameState.RUNNING);
 
 		//_camera setup
-		setupViewport(Gdx.graphics.getWidth(),Gdx.graphics.getHeight());//10, 10
+		setupViewport(800,600);//10, 10
 
 		//get the current size
 		_camera = new OrthographicCamera();
