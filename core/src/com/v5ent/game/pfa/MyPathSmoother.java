@@ -38,7 +38,7 @@ import com.badlogic.gdx.ai.utils.RaycastCollisionDetector;
  * much more satisfactory than the original path.
  * 
  * @param <MyNode> Type of node
- * 
+ *
  * @author davebaol */
 public class MyPathSmoother {
 
